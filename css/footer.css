@@ -1,0 +1,48 @@
+.footer{
+	width: 100%;
+	min-height: 130px;
+	min-width: 1200px;
+	margin-top: 50px;
+	border-bottom: 1px solid #E5E8ED;
+}
+.footer .footer-list{
+	float: left;
+}
+.footer .footer-list p{
+	color: #2A2E31;
+}
+.footer .footer-list ul{
+	margin-top: 8px;
+}
+.footer .footer-list ul li {
+	font-size: 14px;
+	margin-top: 3px;
+}
+.left{
+	margin-left:20%;
+	padding-right: 7%;
+}
+.right{
+	padding-left: 7%;
+}
+.footer .kf_service{
+	float: right;
+	margin-right: 20%;
+	color: #999999;
+	background:url(../img/footer-service.png) no-repeat;
+}
+.footer .kf_service h3{
+	font-size: 16px;
+	margin-left: 30px;
+}
+.footer .kf_service p{
+	font-size: 14px;
+	margin: 10px 4px;
+}
+.footer-bottom{
+	width: 100%;
+	text-align: center;
+	margin: 20px 0 80px 0;
+	font-size:13px; 
+	color: #999999;
+}

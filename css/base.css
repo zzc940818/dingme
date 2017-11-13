@@ -1,0 +1,23 @@
+body,main{
+	margin: 0 auto;
+	width: 100%;
+}
+a{ 
+	text-decoration: none;
+	color: #999999;
+	font-family: "simhei",Arial,Helvetica,sans-serif;
+}
+p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+li{ list-style-type: none; }
+img{
+    vertical-align:middle;
+}
+.clear:after{
+    content:"";
+    display:block;
+    clear:both;
+}

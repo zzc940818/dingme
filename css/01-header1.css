@@ -1,0 +1,36 @@
+#head{
+	height: 80px;
+	width:100%;
+	border-bottom: 1px solid #C0BFBD;
+	position: absolute;
+}
+#head>.logo a img{
+	position: absolute;
+	left: 15%;
+	top: 25px;	
+}
+#head>.head-top{
+	margin-top: -10px;
+}
+#head>.head-top a{
+	position: relative;
+	font:18px "Helvetica Neue";
+	top:35px;
+	left:30%;
+	padding-right:55px;
+	color: #fff;
+}
+#head>.head-top a.register{
+	left:30%;
+	font-size:20px;
+	color: #fff;
+	padding: 5px 27px;
+	border-radius: 30px;
+	border: 1px solid #fff;
+}
+#head>.head-top a:hover{
+	color: #3EBB6B;
+}
+#head>.head-top a.register:hover{
+	color: #fff;
+}

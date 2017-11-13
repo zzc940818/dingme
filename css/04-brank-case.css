@@ -1,0 +1,130 @@
+.brank_banner{
+	width: 100%;
+	height: 400px;
+	background: url(../img/brank-banner.jpg) no-repeat center;
+}
+.brank_box{
+	width: 1000px;
+	margin: 80px auto;
+}
+.case_introduce,.brank_logo_title{
+	height: 45px;
+	position:relative;
+}
+.case_introduce .brank_title,.brank_logo_title .brank_refectory{
+	position: relative;
+	width: 130px;
+	font-size: 30px;
+	margin:0 auto;
+	top: 7px;
+	text-align: center;
+	color:#2a2e31;
+}
+ .line_left,.line_right,.logo_line_left,.logo_line_right{
+	position: absolute;
+	top:50%;
+	width: 400px;
+	background-color: #E5EAEE;
+	 height: 1px;
+	 border: none;
+}
+.line_left,.logo_line_left{
+	left: 0;
+}
+.line_right,.logo_line_right{
+	right: 0;
+}
+.brank_classify{
+	margin: 40px 0 0 0;
+}
+.brank_classify ul{
+	overflow: hidden;
+	margin: 0 0 45px 0;
+	border-left: 1px solid #cfd2d9;
+}
+.brank_classify ul li {
+	float: left;
+	width: 331px;
+	height: 45px;
+	line-height: 45px;
+	border: 1px solid #cfd2d9;
+	border-left: none;
+	font-size: 20px;
+	text-align: center;
+	cursor: pointer;
+}
+.brank_classify p{
+	font-size: 20px;
+}
+.case_info{
+	border: 1px solid #e6e8ee;
+}
+.case_info_img{
+ 	margin: 20px 20px;
+	border: 1px solid #e6e8ee;
+}
+.case_content{
+	padding: 10px 0 35px 20px;
+}
+.case_content p{
+	font-size: 15px;
+	color:#7c8189;
+	line-height: 25px;
+}
+.case_title{
+	margin: 60px 0 25px;
+}
+.brank_case{
+	padding: 32px 0 0 32px;
+	border: 1px solid #e6e8ee;
+}
+.case_list{
+	padding: 0 0 70px 0;
+	overflow: hidden;
+}
+.case_img{
+	float: left;
+	width:265px;
+	margin-top: 18px;
+}
+.brank_case_content{
+	width:665px;
+	float: left;
+}
+.brank_case_content h3{
+	font-size: 18px;
+	font-weight: normal;
+	color: #18223A;
+}
+.brank_case_content p{
+	margin-top: 15px;
+	line-height: 25px;
+	font-size: 15px;
+	font-weight: normal;
+	color: #7C8189;
+}
+.brank_logo_box{
+	width:100%;
+	height: 623px;
+	background: #F2F7FC;
+}
+.logo_list_box{
+	width: 1000px;
+	margin: 0px auto;
+	margin-top: 100px;
+	padding: 50px 0 55px;
+}
+.brank_logo_list{
+	width:1000px;
+	margin: 0 auto;
+}
+.brank_logo_list ul{
+	overflow: hidden;
+}
+.brank_logo_list ul li{
+	float: left;
+	padding: 0 14px 14px 0;
+}
+.brank_logo_list ul li.li_right{
+	padding-right:0;
+}

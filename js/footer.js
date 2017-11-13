@@ -1,0 +1,10 @@
+$.ajax({
+	type:"GET",
+	url:"footer.html",
+	success:function(data){
+		$("#footer").html(data);
+	},
+	error:function(){
+		alert("错误");
+	}
+})

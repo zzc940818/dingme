@@ -1,0 +1,130 @@
+.carousel{
+	max-width: 100%;
+	height: 463px;
+
+}
+.carousel_img{
+	max-width: 1424px;
+	height: 463px;
+
+}
+.carousel .bg_img{
+	overflow: hidden;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+.carousel .bg_img img{
+	height:463px;
+}
+.cause{
+	width:1000px;
+}
+.cause .cause img{
+	width: 699px;
+}
+.cause,.brand .brand_img,.newest,.newest_list,.apply_enter ul{
+	width:1000px;
+	margin: 0 auto;
+}
+.brand{
+	background: #3EBB6B;
+}
+.brand h2{
+	text-align: center;
+	font-size: 30px; 
+	color: #fff;
+	padding-top: 90px;
+}
+.brand p{
+	text-align: center;
+	font-size: 17px;
+	color: #fff;
+	margin-top: 35px;
+}
+.brand .brand_img{
+	margin-top: 70px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
+}
+.brand .brand_img li{
+	padding:40px;
+}
+.newest h2{
+	font: 35px "simhei";
+	text-align: center;
+	padding-top: 100px;
+	color: #2A2E31;
+}
+.newest .newest_p{
+	font-size: 20px;
+	text-align: center;
+	color:#7C808C;
+	margin-top: 30px;
+}
+.newest .newest_list{
+	margin-top: 45px;
+	display: flex;
+	justify-content:space-between;
+}
+.newest .newest_list li{
+	width: 320px;
+	border: 1px solid #E8E8E8;
+}
+.newest .newest_list li .newest_txt {
+	font: 16px "simhei";
+	color: #2A2E31;
+	display:block;
+	margin-top:30px;
+	margin-left: 17px;
+}
+.newest .newest_list a:hover{
+	color: #3EBB6B;
+}
+.newest .newest_list .content{
+	font-size: 13px;
+	color: #868686;
+	line-height: 25px;
+	margin:18px 0 10px 17px;
+}
+.newest .more_btn{
+	display: block;
+	text-align: center;
+	margin:50px 0 100px; 
+}
+.main_end{
+	width:100%;
+	height: 260px;
+	background: url(../img/QRcode_ad2.png) no-repeat center;
+}
+.apply_enter{
+	background:#F1F6F9;	
+}
+.apply_enter ul{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+.apply_enter ul li h3{
+	font:24px "simhei";
+	color:#454545;
+	margin: 130px 0 20px 0;
+}
+.apply_enter ul li p{
+	font-size:15px;
+	color:#454545;
+	margin-bottom: 130px;
+}
+.apply_enter .apply_btn{
+	display:block;
+	width: 230px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	background: url(../img/big_normal.png) no-repeat center;
+	font-size: 25px;
+	color:#fff;
+	border-radius: 50px;
+	margin-top: 130px;
+}

@@ -1,0 +1,86 @@
+#banner{
+    width:100%;
+    height:400px;
+    background: url("../img/agents_banner.jpg") no-repeat center;
+}
+#banner .banner_btn{
+    position: relative;
+    width:300px;
+    height:75px;
+    line-height: 75px;
+    margin:0 auto;
+    top: 255px;
+    background: url("../img/banner_btn_normal.png") no-repeat  center center;
+}
+#banner a{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+.advantage_box,.procedure_list{
+    width:1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.advantage_title h3,.procedure_list h3{
+    margin-top: 110px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+    color: #2A2E31;
+    overflow: hidden;
+}
+.advantage_list{
+    padding-top: 80px;
+}
+.advantage_list ul li {
+    float: left;
+    width:300px;
+    padding-right: 30px;
+    text-align: center;
+}
+.advantage_list ul li h4{
+    font-size: 22px;
+    font-weight:normal;
+    padding-top: 35px;
+}
+.advantage_list ul li p{
+    font-size: 15px;
+    margin: 20px 0 100px;
+}
+.condition{
+    width:100%;
+    height:452px;
+    background: url("../img/condition.jpg") no-repeat center;
+}
+.procedure{
+    border-bottom: 1px solid #E5E8ED;
+}
+.procedure_list ul{
+    margin-top: 80px;
+}
+.procedure_list ul li {
+    height: 200px;
+    float: left;
+    padding:0 10px 60px 0;
+}
+.procedure_list ul li.ent{
+    padding: 0;
+}
+.procedure_list ul li p{
+    margin: 20px 0 0 33px;
+}
+.procedure_list a{
+    display: block;
+    width:230px;
+    height:72px;
+    line-height:72px;
+    font-size: 30px;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    border-radius:50px;
+    margin-bottom: 80px;
+    background: url("../img/big_normal.png") no-repeat center;
+}

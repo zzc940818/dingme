@@ -1,0 +1,36 @@
+#head{
+	height: 80px;
+	width:100%;
+	position: relative;
+}
+#head>.logo a img{
+	position: absolute;
+	left: 15%;
+	top: 25px;	
+}
+#head>.head-top{
+	margin-top: -10px;
+}
+#head>.head-top a{
+	position: relative;
+	font:18px  "Helvetica Neue";
+	font-style: normal;
+	top:35px;
+	left:30%;
+	padding-right:55px;
+	color: #434449;
+}
+#head>.head-top a.register{
+	left:30%;
+	font-size:20px;
+	color: #fff;
+	padding: 5px 27px;
+	border-radius: 30px;
+	background: url(../img/login_normal.png) no-repeat center;
+}
+#head>.head-top a:hover{
+	color: #3EBB6B;
+}
+#head>.head-top a.register:hover{
+	color: #fff;
+}

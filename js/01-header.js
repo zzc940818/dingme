@@ -1,0 +1,10 @@
+$.ajax({
+	type:"GET",
+	url:"01-header.html",
+	success:function(data){
+		$("#header").html(data);
+	},
+	error:function(){
+		alert("网络故障");
+	}
+})
